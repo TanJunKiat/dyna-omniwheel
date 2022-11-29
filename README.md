@@ -17,7 +17,9 @@ We use dynamixels for the precision and the reliability
 
 ### Setup instructions
 
+### Operation
 
+<img src="https://github.com/TanJunKiat/dyna-omniwheel/blob/main/images/operation.jpeg" width=50% height=50%>
 
 ### Troubleshooting
 
