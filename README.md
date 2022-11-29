@@ -19,7 +19,7 @@ We use dynamixels for the precision and the reliability
 
 ### Operation
 
-<img src="https://github.com/TanJunKiat/dyna-omniwheel/blob/main/images/operation.jpeg" width=50% height=50%>
+<img src="https://github.com/TanJunKiat/dyna-omniwheel/blob/main/images/operation.jpeg" width=100% height=100%>
 
 ### Troubleshooting
 
