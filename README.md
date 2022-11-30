@@ -64,11 +64,13 @@ v_{yd}\\
 1 & 1 & -1 & -1 \\
 1 & -1 & -1 & 1 \\
 \end{bmatrix}\begin{bmatrix}
-\omega_1 d \\
-\omega_2 d \\
-\omega_3 d \\
-\omega_4 d \\
+\omega_1 r \\
+\omega_2 r \\
+\omega_3 r \\
+\omega_4 r \\
 \end{bmatrix}$$
-Where $ v_{xd} $ is the desired forward speed, $ v_{yd} $ is the desired leftward speed,and $ \psi_d $ is the desired yaw rate.
+
+Where $v_{xd}$ is the desired forward speed, $v_{yd}$ is the desired leftward speed,and $\psi_d$ is the desired yaw rate. $\omega_i$ is the rotational speed of wheel $i$ and $r$ denotes the radius of the wheel.
+
 ## Contact
 Tan Jun Kiat (junkiat@hotmail.com)
