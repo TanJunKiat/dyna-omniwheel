@@ -15,12 +15,27 @@ We are sharing a omniwheel land rover that is capable of independent forward and
 * [Zippy lipo battery](https://hobbyking.com/en_us/zippy-compact-1400mah-4s-65c-lipo-pack-w-xt60.html)
 * [Spektrum RC AR8010T](https://www.amazon.sg/Spektrum-8-Channel-Integrated-Telemetry-Receiver/dp/B01LWQ1OL7)
 
+## Software pre-requisite
+* Arduino IDE
+* Dynamixel library from Arduino
+
 ## Setup instructions 
 ### Arduino
 
 <img src="https://github.com/TanJunKiat/dyna-omniwheel/blob/main/images/connection.jpeg" width=100% height=100%>
 
+Initialisation
+* The servos are initialised to 1Mbps and ID 1 to 4 (ID 1 - FORWARD-RIGHT, ID 2 - BACKWARD-LEFT, ID 3 - FORWARD-LEFT, ID 4 - BACKWARD RIGHT)
 
+Power distribution
+* We used a 4 cell Lipo battery with a step-down buck converter to ensure a consistent voltage to the Arduino and the servos (operating voltage of 11.1V norminal)
+* Please ensure that the Arduino that you are using has a voltage regulator built within the board
+* The output of the buck converter is connected to the Vin and GND pins of the Arduino Dynamixel shield to power both the shield and the controller
+* The receiver is powered via the 5V output from the Arduino
+
+Communication
+* The Arduino reads PWM from the receiver; each channel of the receiver corresponds to one command (forward-backward, leftward-rightward, yaw)
+* The Dynaxmiel shield output TTL signals to the servos and command a certain velocity depending on the command given by the user.
 
 ## Operation
 
@@ -28,5 +43,12 @@ We are sharing a omniwheel land rover that is capable of independent forward and
 
 ## Troubleshooting
 
+Q: Not all the dynamixel are spinning when the system is powered on
+A: Try pressing the reset button on the Arduino. This behaviour might be due to the disparity between the servo powering up and the intialisation of the servos from Arduino
+
+Q: The system is able to go forward and backwards, but is unable to go sidewards
+A: Try to match the orientation of the small rollers of the omniwheels with the figures above, the roller orientations matter for sidewards motion
+
 
 ## Contact
+Tan Jun Kiat (junkiat@hotmail.com)
