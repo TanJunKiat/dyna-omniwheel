@@ -56,9 +56,19 @@ A: Try to match the orientation of the small rollers of the omniwheels with the 
 ### Dynamics
 
 $$ \begin{bmatrix}
-1 & 2 & 3\\
-a & b & c
-\end{bmatrix} = $$
-
+v_{xd}\\
+v_{yd}\\
+\psi_d
+\end{bmatrix} = \begin{bmatrix}
+1 & 1 & 1 & 1 \\
+1 & 1 & -1 & -1 \\
+1 & -1 & -1 & 1 \\
+\end{bmatrix}\begin{bmatrix}
+\omega_1 d \\
+\omega_2 d \\
+\omega_3 d \\
+\omega_4 d \\
+\end{bmatrix}$$
+Where $ v_{xd} $ is the desired forward speed, $ v_{yd} $ is the desired leftward speed,and $ \psi_d $ is the desired yaw rate.
 ## Contact
 Tan Jun Kiat (junkiat@hotmail.com)
