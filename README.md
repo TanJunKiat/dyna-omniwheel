@@ -55,7 +55,10 @@ A: Try to match the orientation of the small rollers of the omniwheels with the 
 
 ### Dynamics
 
-$\begin{bmatrix}v_{xd} \\ v_{yd} \\ \psi_{d} \end{bmatrix}$
+$$ \begin{bmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{bmatrix} = $$
 
 ## Contact
 Tan Jun Kiat (junkiat@hotmail.com)
