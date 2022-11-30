@@ -44,9 +44,11 @@ Communication
 ## Troubleshooting
 
 Q: Not all the dynamixel are spinning when the system is powered on
+
 A: Try pressing the reset button on the Arduino. This behaviour might be due to the disparity between the servo powering up and the intialisation of the servos from Arduino
 
 Q: The system is able to go forward and backwards, but is unable to go sidewards
+
 A: Try to match the orientation of the small rollers of the omniwheels with the figures above, the roller orientations matter for sidewards motion
 
 
