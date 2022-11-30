@@ -51,6 +51,11 @@ Q: The system is able to go forward and backwards, but is unable to go sidewards
 
 A: Try to match the orientation of the small rollers of the omniwheels with the figures above, the roller orientations matter for sidewards motion
 
+## Appendix
+
+### Dynamics
+
+$\begin{bmatrix}v_{xd} \\ v_{yd} \\ \psi_{d} \end{bmatrix}$
 
 ## Contact
 Tan Jun Kiat (junkiat@hotmail.com)
