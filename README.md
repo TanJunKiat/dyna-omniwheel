@@ -3,10 +3,10 @@
 <img src="https://github.com/TanJunKiat/dyna-omniwheel/blob/main/images/isoview.jpeg" width=50% height=50%>
 
 
-### Description
-We use dynamixels for the precision and the reliability
+## Description
+We are sharing a omniwheel land rover that is capable of independent forward and sideward motion, and the ability to rotation on the spot. Unlike a conventional land rover that operates like car, a omniwheel system is highly manuverable and agile, suitable for position-critical operations. We use dynamixels for the precision and the reliability in terms of performance and the convenience of using a dynamixel shield coupled with the library to control the servos.
 
-### Components
+## Components
 * [Arduino Uno](https://store.arduino.cc/products/arduino-uno-rev3)
 * [Dynamixel Shield](https://www.robotis.us/dynamixel-shield/)
 * [Buck boost converter](https://www.amazon.com/ALAMSCN-Automatic-Converter-Regulator-Charging/dp/B0B96WH3DJ/ref=sr_1_39_sspa?crid=OKW9E5B8RTVA&keywords=buck+boost+converter&qid=1669705482&sprefix=buck+boost+conver%2Caps%2C659&sr=8-39-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTjE1QjNKUTVJSzlIJmVuY3J5cHRlZElkPUEwMTk1Nzk0MVRIWTZHQkdINDhLWSZlbmNyeXB0ZWRBZElkPUEwMzQ2Mjg5MldTOFhYRU1JTklRMSZ3aWRnZXROYW1lPXNwX210ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
@@ -15,15 +15,18 @@ We use dynamixels for the precision and the reliability
 * [Zippy lipo battery](https://hobbyking.com/en_us/zippy-compact-1400mah-4s-65c-lipo-pack-w-xt60.html)
 * [Spektrum RC AR8010T](https://www.amazon.sg/Spektrum-8-Channel-Integrated-Telemetry-Receiver/dp/B01LWQ1OL7)
 
-### Setup instructions
+## Setup instructions 
+### Arduino
 
 <img src="https://github.com/TanJunKiat/dyna-omniwheel/blob/main/images/connection.jpeg" width=100% height=100%>
 
-### Operation
+
+
+## Operation
 
 <img src="https://github.com/TanJunKiat/dyna-omniwheel/blob/main/images/operation.jpeg" width=100% height=100%>
 
-### Troubleshooting
+## Troubleshooting
 
 
-### Contact
+## Contact
